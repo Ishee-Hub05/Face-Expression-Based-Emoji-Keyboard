@@ -76,36 +76,36 @@ Face-Emoji-Keyboard/
 ```
 ---
 
-## 🛠️ Installation & Setup
-Step 1: Clone the Repository
-git clone https://github.com/Ishee-Hub05/face-emoji-keyboard.git
-Step 2: Open Chrome Extensions
-Go to: chrome://extensions/
-Step 3: Enable Developer Mode
-Turn on Developer Mode from the top-right corner.
-Step 4: Load Extension
-Click Load unpacked and select the project folder.
-Step 5: Allow Camera Permission
-Open the extension and allow webcam access
+## 🛠️ Installation & Setup 
+Step 1: Clone the Repository 
+git clone https://github.com/Ishee-Hub05/face-emoji-keyboard.git 
+Step 2: Open Chrome Extensions 
+Go to: chrome://extensions/ 
+Step 3: Enable Developer Mode 
+Turn on Developer Mode from the top-right corner. 
+Step 4: Load Extension 
+Click Load unpacked and select the project folder. 
+Step 5: Allow Camera Permission 
+Open the extension and allow webcam access 
 
 ---
 
-🎯 Learning Objectives
--This project helped in understanding:
--Real-time facial expression recognition
--Computer Vision concepts
--Browser Extension development
--Machine Learning integration in browsers
--Chrome Extension APIs
--Webcam handling using JavaScript
--Client-side AI processing
--Privacy-focused application development
+🎯 Learning Objectives 
+-This project helped in understanding: 
+-Real-time facial expression recognition 
+-Computer Vision concepts 
+-Browser Extension development 
+-Machine Learning integration in browsers 
+-Chrome Extension APIs 
+-Webcam handling using JavaScript 
+-Client-side AI processing 
+-Privacy-focused application development 
 
 ---
 
-🔒 Privacy & Security
--No video data is stored
--No data is uploaded to servers
--All processing happens locally in the browser
--Camera access requires user permission
--Fully offline ML model execution
+🔒 Privacy & Security 
+-No video data is stored 
+-No data is uploaded to servers 
+-All processing happens locally in the browser 
+-Camera access requires user permission 
+-Fully offline ML model execution 
