@@ -76,8 +76,8 @@ Face-Emoji-Keyboard/
 ```
 ---
 
-## 🛠️ Installation & Setup 
-Step 1: Clone the Repository 
+## 🛠️ Installation & Setup  
+Step 1: Clone the Repository  
 git clone https://github.com/Ishee-Hub05/face-emoji-keyboard.git 
 Step 2: Open Chrome Extensions 
 Go to: chrome://extensions/ 
