@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Face Emoji</title>
+  <!-- CSP is managed by manifest.json for MV3 extensions -->
+  <!-- Chrome extension CSP handled by manifest, don't override it -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h2>Face Emoji Keyboard</h2>
+
+  <video id="video" autoplay muted playsinline></video>
+
+  <div id="emoji" title="Click to insert emoji into active field">😐</div>
+  <div id="status">Status: initializing...</div>
+
+  <script src="models_encoded.js"></script>
+  <script src="interceptor.js"></script>
+
+  <script src="face-api.min.js"></script>
+  <script src="popup.js"></script>
+
+</body>
+</html>

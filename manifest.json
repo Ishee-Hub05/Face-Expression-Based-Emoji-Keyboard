@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Face Emoji Keyboard",
+  "version": "1.3",
+  "description": "Real-time face expression to emoji",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; connect-src 'self'; object-src 'self'"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["models/**"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
